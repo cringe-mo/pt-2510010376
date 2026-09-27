@@ -1,0 +1,10 @@
+# Catatan Kesalahan Program
+| Berkas | Jenis kesalahan | Pesan yang muncul | Cara kamu mengetahuinya |
+|---|---|---|---|
+| k1_sintaks.cpp | Terjadi kesalahan pada penulisan perintah C++, sehingga struktur kode tidak mengikuti aturan yang ditentukan oleh bahasa C++. | `tempCodeRunnerFile.cpp:5:5: error: expected ',' or ';' before 'std'` | Saya mengetahuinya setelah compiler menampilkan pesan kesalahan yang menunjukkan bagian kode yang penulisannya tidak sesuai. |
+| k2_nama.cpp | Kesalahan disebabkan oleh penggunaan identifier yang tidak sesuai, seperti salah menulis nama variabel atau memakai variabel yang belum didefinisikan. | `k2_nama.cpp:8:31: error: 'Nilai' was not declared in this scope; did you mean 'nilai'?` | Kesalahan terlihat dari compiler karena nama yang digunakan tidak ditemukan atau tidak dikenali sebagai variabel yang telah dibuat. |
+| k3_runtime.cpp | Masalah terjadi pada saat program sedang dieksekusi, biasanya karena kondisi tertentu menyebabkan proses program tidak berjalan seperti yang diharapkan. | `Jumlah mahasiswa: 0` | Saya mengetahuinya ketika mencoba menjalankan program dan memasukkan jumlah mahasiswa 0, kemudian proses berikutnya tidak berjalan dengan benar.|
+| k4_logika.cpp | Kesalahan terdapat pada proses pengolahan data atau perhitungan, sehingga program menghasilkan nilai yang berbeda dari hasil yang semestinya. | `Rata-rata: 81` | Saya menemukannya dengan menghitung hasil secara manual kemudian mencocokkannya dengan output program. Hasil yang benar seharusnya adalah 81,67, bukan 81. |
+
+# Pendapat
+Menurut saya, kesalahan logika perlu diperhatikan dengan baik karena biasanya program tetap dapat dijalankan tanpa menunjukkan peringatan atau error dari compiler. Masalahnya baru terlihat ketika hasil yang diberikan tidak sesuai dengan yang seharusnya. Karena itu, kita tidak cukup hanya memastikan program bisa berjalan, tetapi juga harus memeriksa apakah proses dan hasil akhirnya sudah benar.
