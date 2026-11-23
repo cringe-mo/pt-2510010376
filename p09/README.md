@@ -38,5 +38,4 @@ berubah sehingga aman dibaca dari fungsi mana pun.
 Folder `p09` di repository `pt-NPM` berisi `sinilai_v07.cpp`. Lihat Modul Pertemuan 9 bagian E.
 
 ## Deklarasi AI
-
-tidak menggunakan AI
+Tidak Menggunakan AI
